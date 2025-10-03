@@ -1,0 +1,135 @@
+body {
+    color: #434455;
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+ul, ol {
+        list-style-type: none;
+}
+a {
+        text-decoration: none;
+}
+.logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+.logo-web-header {
+    color: #2E2F42;
+}
+.logo-web-footer {
+color: #F4F4FD;
+}
+.nav-list-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.nav-list-link:hover,
+.nav-list-link:focus,
+.nav-list-link:active {
+        color: #404bbf;
+}
+.address {
+        font-style: normal;
+}
+.address-list-link {
+        color: #434455;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.address-list-link:hover,
+.address-list-link:focus {
+color: #404bbf;
+}
+
+.section-heading {
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2E2F42;
+        text-transform: capitalize;
+}
+.main-page {
+        background: #2E2F42;
+}
+.heading {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: white;
+}
+.btn {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: white;
+            background-color: #4D5AE5;
+            cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+background-color: #404BBF;
+}
+.strategy-list-items {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.strategy-list-text {
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #434455;
+}
+.team-section {
+        background-color: #F4F4FD;
+}
+.team-names {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.team-text {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+.team-list-items {
+background-color: #FFFFFF;
+}
+.portfolio-list-heading {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.2;
+                letter-spacing: 0.02em;
+                color: #2e2f42;
+}
+.portfolio-list-text {
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #434455;
+}
+.footer {
+        background-color: #2e2f42;
+}
+.footer-text {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
