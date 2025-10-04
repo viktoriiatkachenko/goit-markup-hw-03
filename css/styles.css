@@ -1,3 +1,5 @@
+
+/* reset */
 body {
     color: #434455;
     background-color: #FFFFFF;
@@ -5,9 +7,45 @@ body {
 }
 ul, ol {
         list-style-type: none;
+        margin: 0;
+        padding: 0;
 }
 a {
         text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+}
+/* header */
+.container {
+        max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+}
+.header {
+        border-bottom: #e7e9fc;
+}
+.header-container {
+        display: flex;
+        align-items: center;
+}
+.nav {
+        display: flex;
+        align-items: center;
+}
+.nav-list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+} 
+.address-list {
+        display: flex;
+        align-items: center; 
+        gap: 149px;
+}
+.header-logo {
+        padding: 24px 0;
+        margin-right: 76px;
 }
 .logo {
         font-family: "Raleway", sans-serif;
@@ -24,12 +62,15 @@ a {
 .logo-web-footer {
 color: #F4F4FD;
 }
+
 .nav-list-link {
+        display: block;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
 }
 .nav-list-link:hover,
 .nav-list-link:focus,
@@ -38,17 +79,29 @@ color: #F4F4FD;
 }
 .address {
         font-style: normal;
+        margin-left: auto;
 }
 .address-list-link {
         color: #434455;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: block;
+        padding: 24px 0;
 }
 .address-list-link:hover,
 .address-list-link:focus {
 color: #404bbf;
 }
 
+/* main */
+.main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+        gap: 48px;
+}
 .section-heading {
         font-size: 36px;
         line-height: 1.11;
@@ -67,6 +120,7 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: white;
+        margin: 0 auto;
 }
 .btn {
             font-weight: 500;
@@ -76,6 +130,11 @@ color: #404bbf;
             color: white;
             background-color: #4D5AE5;
             cursor: pointer;
+        border-radius: 4px;
+                width: 169px;
+                height: 56px;
+                text-align: center;
+                margin: 0;
 }
 .btn:hover,
 .btn:focus {
